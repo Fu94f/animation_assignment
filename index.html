@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Bebas+Neue&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://kit.fontawesome.com/87e72e830b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
     <title>Assignment</title>
@@ -15,11 +17,11 @@
     <header>
         <nav>
             <div class="nav_container">
-                <div class="nav_logo logo">
-                    <div class="logo_container">
-                        <span><p>Club Neon</p></span>
-                    </div>
-                 <!--add logo-->
+                <div class="nav_logo-container"> 
+                    <svg class=" diamond animate__animated animate__flip animate__slower" width="150" height="150" viewbox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                       <polygon points="60,40 40,70 100,150 160,70 140,40" stroke="white"  stroke-width="5px" stroke-linecap=" round" stroke-linejoin="round"/>
+                       <path d="M 60,40 L 80,70 M 80,70 L 100,40 M 100,40 L 120,70 M 120,70 L 140,40 M 160,70 L 40,70 M 80,70 L 100,150 M 120,70 L 100,150" stroke="white" stroke-width="5px" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg><span><h1 class="text_logo">Club Diamond</h1></span>
                 </div>
                 <ul class="nav_list">
                     <li class="nav_item"><a href="#" class="nav_link">Home</a></li> 
@@ -27,22 +29,21 @@
                     <li class="nav_item"><a href="#" class="nav_link">Events</a></li>
                     <li class="nav_item"><a href="#" class="nav_link">Contact</a></li>
                 </ul>
-                
             </div>
         </nav> 
     </header>
     <main>
         <section class="section_intro">
             <h2 class="intro_title">EXPERIENCE THE GLOW</h2>
-            <p class="intro_text">Step into Diamond Club — the city’s most electrifying nightlife destination.Neon lights. Deep bass. Luxury vibes.</p>
+            <p class="intro_text"> Step into Diamond Club <br> the city’s most electrifying nightlife destination.Neon lights. Deep bass. Luxury vibes.</p>
             <div class="btn_container">
-                <button type="button" class="btn_getyourtickets">Get your tickets</button>
+                <button type="button" class="btn btn_booknow animate__animated animate__pulse animate__infinite">Book now</button>
             </div>
         </section>
 
        <section class="cards">
             <div class="cards_text">
-                <h2 class="cards_main-title">UPCOMING Events</h2>
+                <h2 class="cards_main-title">UPCOMING EVENTS</h2>
             </div>
             <div class="cards_container">
                 <div class="cards_item">
@@ -50,19 +51,17 @@
                     <div class="img_container">
                      <img src="images/spiraleled.webp" alt="led spirale" title="spirale" class="card_img card_spin">
                     </div>
-                    
-                     <div class="btn_container">
-                        <button type="button" class="btn_getyourtickets">get your tickets</button>
+                    <div class="btn_container">
+                        <button type="button" class="btn btn_getyourtickets">Get your tickets</button>
                     </div>  
                 </div>    
                 <div class="cards_item">
-                    <h3 class="cards_title">Saturday - Dance under neon waves</h3>
+                    <h3 class="cards_title">Saturday - Shake it!</h3>
                     <div class="img_container">
                      <img src="images/shake.avif" alt="led spirale" title="spirale" class="card_img shake-opacity shake-constant">
                     </div>
-                    
-                     <div class="btn_container">
-                        <button type="button" class="btn_getyourtickets">get your tickets</button>
+                    <div class="btn_container">
+                        <button type="button" class=" btn btn_getyourtickets">Get your tickets</button>
                     </div>  
                 </div>
             
@@ -71,29 +70,36 @@
                     <div class="img_container">
                      <img src="images/heart-shape-nano-light.jpg" alt="heart led" title="heart led" class="card_img card_zoom">
                     </div>
-                    
-                     <div class="btn_container">
-                        <button type="button" class="btn_getyourtickets">get your tickets</button>
+                    <div class="btn_container">
+                        <button type="button" class="btn btn_getyourtickets">Get your tickets</button>
                     </div>  
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <div class="footer_logo"> </div>
-            <div class="footer_links">
-                <ul class="footer_list-link">
-                  <li class="list_item"><a href="#" class="nav_link">Home</a></li> 
-                  <li class="list_item"><a href="#" class="nav_link">About</a></li>
-                  <li class="list_item"><a href="#" class="nav_link">Events</a></li>
-                  <li class="list_item"><a href="#" class="nav_link">Contact</a></li>
-                </ul>
-            </div>
-            <div class="footer_social-icons">
-             <a href="#">Instagram</a>
-             <a href="#">Facebook</a>
-             <a href="#">TikTok</a>
-            </div>
+        <div class="footer_logo"> 
+            <svg class=" diamond animate__animated animate__flip animate__slower" width="150" height="150" viewbox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <polygon points="60,40 40,70 100,150 160,70 140,40" stroke="white"  stroke-width="5px" stroke-linecap=" round" stroke-linejoin="round"/>
+                <path d="M 60,40 L 80,70 M 80,70 L 100,40 M 100,40 L 120,70 M 120,70 L 140,40 M 160,70 L 40,70 M 80,70 L 100,150 M 120,70 L 100,150" stroke="white" stroke-width="5px" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg><span><h1 class="text_logo">Club Diamond</h1></span>
+        </div>
+        <div class="footer_links-container">
+             <ul class="footer_list-link">
+                <li class="list_item"><a href="#" class="footer_link">Home</a></li> 
+                <li class="list_item"><a href="#" class="footer_link">About</a></li>
+                <li class="list_item"><a href="#" class="footer_link">Events</a></li>
+                <li class="list_item"><a href="#" class="footer_link">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer_social">
+           <p>follow us</p>
+           <div class="footer_icon">
+             <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+             <a href="#"><i class="fa-brands fa-instagram"></i></a>
+             <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+           </div>
+        </div>
     </footer>
     
 </body>
