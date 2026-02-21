@@ -1,0 +1,174 @@
+body{
+    margin: 0 auto;
+   background-color: black;
+    background-image: url(/images/neon\ glow.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+
+}
+
+.nav_logo{
+    display: flex;
+    justify-content: center;
+   
+}
+ 
+.logo_container{
+    font-size: 55px;
+}
+
+.nav_list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 30px;
+    
+}
+
+.nav_link{
+    text-decoration: none;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 2;
+    letter-spacing: 0;
+    color:black;
+}
+
+a:hover{
+    color: rgb(104, 11, 124);
+}
+
+.section_intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8A2CFF;
+}
+.intro_title{
+    font-family: "Bungee", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color:white;
+    margin-bottom: 5px;
+}
+
+.intro_text{
+    font-size:25px;
+    color: white;
+    margin-top: 0;
+}
+
+.btn_getyourtickets{
+    width: 200px;
+    height: 40px;
+    margin:20px 0 20px 0;
+    border-radius: 30px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0;
+    color: purple;
+}
+
+.btn_getyourtickets:hover{
+    background-color: blue;
+    transition: all 0.5s ease-in-out;
+}
+
+.cards{  
+    width: 100%;         
+    max-width:1400px;
+    margin:0 auto 30px auto;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+
+}
+
+.cards_text{
+    width: 100%;
+    max-width:1300px;
+    
+}
+
+.cards_main-title{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: white;
+    text-align: center;
+}
+
+.cards_subtitle{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+
+
+.cards_container{
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-style: normal;
+    font-size: 15px;
+    line-height: auto;
+    letter-spacing: 0;
+    border: 1px solid #FFFFFF;
+    color:white;
+    padding: 20px;
+}
+
+.cards_item{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    background-color: black;
+    border-radius: 20px;
+    border:5px solid #8A2CFF;
+}
+.cards_title{
+    font-weight: bold;
+    font-size: 20px;
+    color:purple;
+    
+}
+
+.card_img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card_spin{
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin{
+    from{ transform: rotate(0deg);}
+    to{ transform: rotate(360deg);}
+}
+
+.card_zoom{
+    animation:zoom 1s ease-in-out infinite;
+}
+
+@keyframes zoom{
+    0% {transform: scale(1);}
+    50%{ transform: scale(1.1);}
+    100%{ transform: scale(1);}
+}
+
+
