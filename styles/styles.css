@@ -1,6 +1,6 @@
 body{
     margin: 0 auto;
-    background-image: url(/images/neon\ glow.jpg);
+    background-image: url(/images/neon_waves_.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -198,6 +198,10 @@ footer{
     text-decoration: none;
 }
 
+.list_item{
+    list-style: none;
+}
+
 .footer_social{
     display: flex;
     flex-direction: column;
@@ -209,7 +213,10 @@ footer{
     text-decoration: none;
 }
 
-.footer_icon{
+.icon{
     font-size: 25px;
+    margin-left: 10px;
+    color:#04d9ff;
     
 }
+
